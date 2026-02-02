@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tenx": {
+      "command": "npx",
+      "args": ["-y", "@10academy/tenx-mcp"],
+      "env": {
+        "TENX_API_KEY": "${TENX_API_KEY}"
+      }
+    }
+  }
+}
